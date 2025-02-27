@@ -7,13 +7,14 @@ body{
     font-family: "Ruge Boogie", serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #800020;
 }
 h1{
     text-align: center;
     font-size: 30pt;
 }
 footer{
-    float: left;
+    font-size: 26pt;
 }
 a{
     font-size: 26pt;
