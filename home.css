@@ -19,11 +19,9 @@ footer{
 a{
     font-size: 26pt;
     text-decoration-style: wavy;
+    color:  #BF5827;
 }
 a:hover{
     color: #ECCCA0;
     text-decoration-style: wavy;
-}
-.spiritLink{
-    color:  #BF5827;
 }
