@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sons of Horus</title>
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/1.10.0/model-viewer.min.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
 </head>
 <body>
     <h2 class="jackal">Duamutef</h2>
-    <model-viewer class="jackal" alt="Duamutef Jar (Protects the Stomach)" src="Models/canopic_jar_jackal DRACO.glb" shadow-intensity="1" auto-rotate auto-rotate-delay="0"></model-viewer>
+    <model-viewer src="canopic_jar_jackal.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+        <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">
+            View in your space
+        </button>
+        <div id="ar-prompt">
+            <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+        </div>
+    </model-viewer>
 </body>
 </html>
