@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruge+Boogie&display=swap');
 body{
+    font-family: "Ruge Boogie", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #BF5827;
+    background-color: #800020;
+    font-size: 26pt;
+}
+.textured_text{
     background-image: url("images/sandDunesTexture.jpg");
     background-repeat: repeat;
     background-clip: text;
     color: transparent;
-    font-family: "Ruge Boogie", serif;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #800020;
     display: block;
 }
 h1{
@@ -16,11 +20,11 @@ h1{
 }
 footer{
     font-size: 26pt;
+    position: absolute;
+    bottom: 2pt;
 }
 a{
-    font-size: 26pt;
     text-decoration-style: wavy;
-    color:  #BF5827;
 }
 a:hover{
     color: #ECCCA0;
